@@ -2,7 +2,7 @@
 
 **Nama:** Arsy Alvaro Putra  
 **Kelas:** XI TJAT-5  
-**Nomor Absen:06**  
+**Nomor Absen:05**  
 **Sekolah:** SMK Telkom Sidoarjo
 
 ## 1. Deskripsi Project
