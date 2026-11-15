@@ -75,14 +75,14 @@ http://localhost:8080
 
 ## 5. Perintah Docker Compose
 
-| Perintah | Fungsi |
-|---|---|
-| `docker compose config` | Memeriksa konfigurasi |
-| `docker compose up -d` | Menjalankan container |
-| `docker compose ps` | Melihat status container |
-| `docker compose logs wordpress` | Melihat log WordPress |
-| `docker compose down` | Menghentikan dan menghapus container |
-| `docker compose down` lalu `docker compose up -d` | Menguji persistensi data |
+| Perintah                                          | Fungsi                               |
+| ------------------------------------------------- | ------------------------------------ |
+| `docker compose config`                           | Memeriksa konfigurasi                |
+| `docker compose up -d`                            | Menjalankan container                |
+| `docker compose ps`                               | Melihat status container             |
+| `docker compose logs wordpress`                   | Melihat log WordPress                |
+| `docker compose down`                             | Menghentikan dan menghapus container |
+| `docker compose down` lalu `docker compose up -d` | Menguji persistensi data             |
 
 ## 6. Jawaban Tugas Eksplorasi
 
@@ -118,13 +118,13 @@ Percobaan tersebut digunakan untuk membuktikan bahwa data WordPress tetap tersim
 
 ### 7. Pilih satu masalah yang ditemui selama setup!
 
-Masalah yang saya temui: (Isi sesuai masalah yang benar-benar kamu alami).
+Masalah yang saya temui: Saat pertama kali menjalankan Docker, Docker belum bisa berjalan dengan normal jika PowerShell tidak dibuka sebagai Administrator.
 
-Penyebab: (Jelaskan penyebab masalah tersebut).
+Penyebab: Beberapa perintah dan proses yang dibutuhkan Docker memerlukan izin administrator.
 
-Langkah perbaikan: (Jelaskan cara mengatasinya).
+Langkah perbaikan: Saya membuka PowerShell dengan opsi Run as Administrator, kemudian menjalankan Docker kembali
 
-Hasil: (Jelaskan apakah project berhasil berjalan setelah diperbaiki).
+Hasil: Docker berhasil dijalankan dan saya bisa melanjutkan konfigurasi serta menjalankan container WordPress dan database.
 
 ### 8. Jelaskan satu modifikasi yang dilakukan sendiri!
 
@@ -166,7 +166,7 @@ Project ini berhasil dijalankan setelah konfigurasi WordPress dan MariaDB disiap
 
 ## 9. Repository GitHub
 
-Tautan Repository: (Masukkan URL repository GitHub kamu)
+Tautan Repository: (https://github.com/arsyalvarop-debug/Final-wordpress-compose-arsy)
 
 ---
 
